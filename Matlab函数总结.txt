@@ -1,0 +1,34 @@
+重要模型：云模型，非线性规划，PCA,粒子群、蚁群、模拟退火、遗传，神经网络
+
+
+
+1 读写Excel文件：F:\MATLABwork\2018\8\24
+  a=xlsread('F:\MATLABwork\2018\8\24\test1.xlsx',1,'A1:C4');
+  xlswrite('F:\MATLABwork\2018\8\24\test1.xlsx',a,1,'F1:H4');
+
+
+2 多项式拟合：F:\MATLABwork\2018\8\24
+  plotfit(x,y,3);
+  x：横坐标矩阵，y：纵坐标矩阵  n：需要拟合的阶数
+
+3 求解线性规划问题：
+  x = linprog( c , A , b , Aeq , beq , lb , ub , x0 )是求解线性规划问题的命令;
+  c是目标函数的系数向量，A是不等式约束AX<=b的系数矩阵，b是不等式约束AX<=b的常数项
+  Aeq是等式约束AeqX=beq的系数矩阵，beq是等式约束AeqX=beq的常数项，lb是X的下限，ub是X的上限，X是向量[x1,x2,...xn]即决策变量。
+  指定迭代的初始值x0；
+
+4 求矩阵的特特征值特征向量
+  [V,D]=eig(A)：求矩阵A的全部特征值，构成对角阵D，并求A的特征向量构成V的列向量。
+  
+5 SVM分类：F:\MATLABwork\2018\8\24
+
+6 K-Means算法：F:\MATLABwork\2018\8\24
+
+7   
+  
+  
+  
+  
+  
+  
+  
