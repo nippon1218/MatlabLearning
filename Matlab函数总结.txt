@@ -24,7 +24,9 @@
 
 6 K-Means算法：F:\MATLABwork\2018\8\24
 
-7   
+7 plot()
+
+    
   
   
   
